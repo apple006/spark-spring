@@ -1,10 +1,12 @@
 package com.dr.leo.demo.service;
 
+import com.dr.leo.demo.util.ScalaTestUtil;
 import org.apache.spark.sql.SparkSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
+ * 通过scala的静态类访问，Scala中的方法
  * @author longping.jie (weixiao.me@aliyun.com)
  * @version 1.0
  * @website https://www.jlpyyf.com
@@ -12,15 +14,17 @@ import org.springframework.stereotype.Service;
  * @since 1.0
  */
 @Service
-public class JtestService {
+public class JavaTestService {
     @Autowired
     private SparkSession sparkSession;
 
-    public String readTable() {
-        return TestService.readDimShop(sparkSession);
+    public String readTable(String tableName) {
+        return WordCountServiceObject.readDimShop(sparkSession, tableName);
     }
 
-    public String readTable2() {
-        return "readTable2";
+    public String sayHello() {
+        //调用scala util
+        System.out.println(ScalaTestUtil.sayHello());
+        return "JavaTestService sayHello";
     }
 }

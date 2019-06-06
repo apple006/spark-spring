@@ -7,12 +7,12 @@ package com.dr.leo.demo.util;
  * @date 2019/6/6 14:11
  * @since 1.0
  */
-public class TestUtil {
+public class JavaTestUtil {
     public String hello() {
-        return "hello word1";
+        return "hello,I am java hello";
     }
 
     public static String hello2() {
-        return "hello word2";
+        return "hello,I am java static hello";
     }
 }
