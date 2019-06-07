@@ -11,8 +11,22 @@
     <groupId>com.dr.leo</groupId>
     <artifactId>spark-spring</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
     <name>spark-spring</name>
-    <description>Demo project for Spring Boot</description>
+    <description>跑在SpringBoot上的Spark</description>
+    <url>https://www.jlpyyf.com/</url>
+
+    <developers>
+        <developer>
+            <id>leo.jie</id>
+            <name>leo</name>
+            <email>leo.jie@datarealglobal.com</email>
+            <roles>
+                <role>Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
