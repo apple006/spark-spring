@@ -65,14 +65,14 @@
 
 ## 测试集群配置
 
-![](https://leo-jie-pic.oss-cn-beijing.aliyuncs.com/picgo-leo21559835384_.pic.jpg)
+![](https://github.com/CCweixiao/leo-img/blob/master/spark-spring/picgo-leo21559835384_.pic.jpg)
 
-![](https://leo-jie-pic.oss-cn-beijing.aliyuncs.com/picgo-leo31559835573_.pic.jpg)
+![](https://github.com/CCweixiao/leo-img/blob/master/spark-spring/picgo-leo31559835573_.pic.jpg)
 
 
 # 项目结构
 
-![](https://leo-jie-pic.oss-cn-beijing.aliyuncs.com/picgo-leo20190606232643.png)
+![](https://github.com/CCweixiao/leo-img/blob/master/spark-spring/picgo-leo20190606232643.png)
 
 
 # 技术栈
@@ -89,7 +89,7 @@
 2. 替换集群配置文件为自己的
 3. mvn clean package 打包
 
-![](https://leo-jie-pic.oss-cn-beijing.aliyuncs.com/picgo-leo20190606234118.png)
+![](https://github.com/CCweixiao/leo-img/blob/master/spark-spring/picgo-leo20190606234118.png)
 
 
 ```java
@@ -112,27 +112,27 @@
 
 服务启动后如图
 
-![](https://leo-jie-pic.oss-cn-beijing.aliyuncs.com/picgo-leo51559835979_.pic_hd.jpg)
+![](https://github.com/CCweixiao/leo-img/blob/master/spark-spring/picgo-leo51559835979_.pic_hd.jpg)
 
-![](https://leo-jie-pic.oss-cn-beijing.aliyuncs.com/picgo-leo61559836034_.pic_hd.jpg)
+![](https://github.com/CCweixiao/leo-img/blob/master/spark-spring/picgo-leo61559836034_.pic_hd.jpg)
 
 postman 测试
 
 WordCount
 
-![](https://leo-jie-pic.oss-cn-beijing.aliyuncs.com/picgo-leo11559836383_.pic.jpg)
+![](https://github.com/CCweixiao/leo-img/blob/master/spark-spring/picgo-leo11559836383_.pic.jpg)
 
 操作hive中的表
 
-![](https://leo-jie-pic.oss-cn-beijing.aliyuncs.com/picgo-leo21559836459_.pic_hd.jpg)
+![](https://github.com/CCweixiao/leo-img/blob/master/spark-spring/picgo-leo21559836459_.pic_hd.jpg)
 
 java scala互相调用
 
-![](https://leo-jie-pic.oss-cn-beijing.aliyuncs.com/picgo-leo31559836510_.pic.jpg)
+![](https://github.com/CCweixiao/leo-img/blob/master/spark-spring/picgo-leo31559836510_.pic.jpg)
 
 依赖注入
 
-![](https://leo-jie-pic.oss-cn-beijing.aliyuncs.com/picgo-leo41559836583_.pic_hd.jpg)
+![](https://github.com/CCweixiao/leo-img/blob/master/spark-spring/picgo-leo41559836583_.pic_hd.jpg)
 
 # 总结
 
